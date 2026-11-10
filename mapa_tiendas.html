@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9e9005a8f59cbb6f8b752ff95d8ab7b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c9e9005a8f59cbb6f8b752ff95d8ab7b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c9e9005a8f59cbb6f8b752ff95d8ab7b = L.map(
+                "map_c9e9005a8f59cbb6f8b752ff95d8ab7b",
+                {
+                    center: [37.6253459625, -1.0217962125],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e3dba6515bfa3d0437b158ad85551d69 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e3dba6515bfa3d0437b158ad85551d69.addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+            var marker_a2f607e95b27118b01b6eb3753fe6042 = L.marker(
+                [37.6119811, -1.0446958],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_ca1312496a4a6d8c086fd1aa5ad127e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adb687cfa29e85799d0c70fa52b027df = $(`<div id="html_adb687cfa29e85799d0c70fa52b027df" style="width: 100.0%; height: 100.0%;">1: Carnicería Lute</div>`)[0];
+                popup_ca1312496a4a6d8c086fd1aa5ad127e6.setContent(html_adb687cfa29e85799d0c70fa52b027df);
+            
+        
+
+        marker_a2f607e95b27118b01b6eb3753fe6042.bindPopup(popup_ca1312496a4a6d8c086fd1aa5ad127e6)
+        ;
+
+        
+    
+    
+            marker_a2f607e95b27118b01b6eb3753fe6042.bindTooltip(
+                `<div>
+                     1: Carnicería Lute
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da277dd9721bca2a0afa15b5002cd991 = L.marker(
+                [37.612464, -0.9880213],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_ae6c605181eff06fb45438ee6fde984b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86052ad752c383687225839d00005de6 = $(`<div id="html_86052ad752c383687225839d00005de6" style="width: 100.0%; height: 100.0%;">2: Tino</div>`)[0];
+                popup_ae6c605181eff06fb45438ee6fde984b.setContent(html_86052ad752c383687225839d00005de6);
+            
+        
+
+        marker_da277dd9721bca2a0afa15b5002cd991.bindPopup(popup_ae6c605181eff06fb45438ee6fde984b)
+        ;
+
+        
+    
+    
+            marker_da277dd9721bca2a0afa15b5002cd991.bindTooltip(
+                `<div>
+                     2: Tino
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d2adcc5ea1287a1632f83369db80b561 = L.marker(
+                [37.6042165, -0.9888081],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_8e3f98f7ea30a64089f499ac0ba1513e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3f5fdab5cc56698c238ac4c8c4999d = $(`<div id="html_ef3f5fdab5cc56698c238ac4c8c4999d" style="width: 100.0%; height: 100.0%;">3: Valles</div>`)[0];
+                popup_8e3f98f7ea30a64089f499ac0ba1513e.setContent(html_ef3f5fdab5cc56698c238ac4c8c4999d);
+            
+        
+
+        marker_d2adcc5ea1287a1632f83369db80b561.bindPopup(popup_8e3f98f7ea30a64089f499ac0ba1513e)
+        ;
+
+        
+    
+    
+            marker_d2adcc5ea1287a1632f83369db80b561.bindTooltip(
+                `<div>
+                     3: Valles
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb5d4e78343e2d02e84d2aae96bef684 = L.marker(
+                [37.6060055, -0.9771731],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_3bb3df8324ae481999a867ccedd5ca1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_830c0f152b91d39b63cf7c6f0d134796 = $(`<div id="html_830c0f152b91d39b63cf7c6f0d134796" style="width: 100.0%; height: 100.0%;">4: Carnicería Cristóbal</div>`)[0];
+                popup_3bb3df8324ae481999a867ccedd5ca1d.setContent(html_830c0f152b91d39b63cf7c6f0d134796);
+            
+        
+
+        marker_bb5d4e78343e2d02e84d2aae96bef684.bindPopup(popup_3bb3df8324ae481999a867ccedd5ca1d)
+        ;
+
+        
+    
+    
+            marker_bb5d4e78343e2d02e84d2aae96bef684.bindTooltip(
+                `<div>
+                     4: Carnicería Cristóbal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc72a7165cc2d195bd549b3261e99bcc = L.marker(
+                [37.646293, -1.1586491],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_fb13fa65fd03ea689c2e42303ef94318 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11d01788f6f100dedbbb91258f5ee8f2 = $(`<div id="html_11d01788f6f100dedbbb91258f5ee8f2" style="width: 100.0%; height: 100.0%;">5: Sin nombre</div>`)[0];
+                popup_fb13fa65fd03ea689c2e42303ef94318.setContent(html_11d01788f6f100dedbbb91258f5ee8f2);
+            
+        
+
+        marker_cc72a7165cc2d195bd549b3261e99bcc.bindPopup(popup_fb13fa65fd03ea689c2e42303ef94318)
+        ;
+
+        
+    
+    
+            marker_cc72a7165cc2d195bd549b3261e99bcc.bindTooltip(
+                `<div>
+                     5: Sin nombre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78b0b5c8a9dcffeb52b2bf9714ae7e95 = L.marker(
+                [37.652654, -1.0127527],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_95d7b749df07d970154339af23764d96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1f9120dba98cb4bc4a0557181d43c12 = $(`<div id="html_d1f9120dba98cb4bc4a0557181d43c12" style="width: 100.0%; height: 100.0%;">6: El Churro</div>`)[0];
+                popup_95d7b749df07d970154339af23764d96.setContent(html_d1f9120dba98cb4bc4a0557181d43c12);
+            
+        
+
+        marker_78b0b5c8a9dcffeb52b2bf9714ae7e95.bindPopup(popup_95d7b749df07d970154339af23764d96)
+        ;
+
+        
+    
+    
+            marker_78b0b5c8a9dcffeb52b2bf9714ae7e95.bindTooltip(
+                `<div>
+                     6: El Churro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f63aae406fe569c5b6c89511b1a84259 = L.marker(
+                [37.65183, -1.0122442],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_5264680a183a1ea0c6a6681d1345c695 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0126a12ba8045b58b1463298eb5bbd79 = $(`<div id="html_0126a12ba8045b58b1463298eb5bbd79" style="width: 100.0%; height: 100.0%;">7: Sin nombre</div>`)[0];
+                popup_5264680a183a1ea0c6a6681d1345c695.setContent(html_0126a12ba8045b58b1463298eb5bbd79);
+            
+        
+
+        marker_f63aae406fe569c5b6c89511b1a84259.bindPopup(popup_5264680a183a1ea0c6a6681d1345c695)
+        ;
+
+        
+    
+    
+            marker_f63aae406fe569c5b6c89511b1a84259.bindTooltip(
+                `<div>
+                     7: Sin nombre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c6d1471ff37f2200c4a0af458b7f1ebd = L.marker(
+                [37.6173236, -0.9920254],
+                {
+}
+            ).addTo(map_c9e9005a8f59cbb6f8b752ff95d8ab7b);
+        
+    
+        var popup_0f2355b22440f91fe1172512645a01db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7da2eb4e8c537d62b1180b120cec07bb = $(`<div id="html_7da2eb4e8c537d62b1180b120cec07bb" style="width: 100.0%; height: 100.0%;">8: El Lindo Carnicería Charcutería</div>`)[0];
+                popup_0f2355b22440f91fe1172512645a01db.setContent(html_7da2eb4e8c537d62b1180b120cec07bb);
+            
+        
+
+        marker_c6d1471ff37f2200c4a0af458b7f1ebd.bindPopup(popup_0f2355b22440f91fe1172512645a01db)
+        ;
+
+        
+    
+    
+            marker_c6d1471ff37f2200c4a0af458b7f1ebd.bindTooltip(
+                `<div>
+                     8: El Lindo Carnicería Charcutería
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
