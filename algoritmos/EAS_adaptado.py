@@ -1,4 +1,4 @@
-from ACO_adaptado import *
+from algoritmos.ACO_adaptado import *
 
 def UpdatePheromones(P, tao, rho, Q, cerrado, best_ant=None, e=0):
     # "e" es un hiperparámetro y debe ser mayor que 0 para que EAS no funcione exactamente igual que un ACO. 

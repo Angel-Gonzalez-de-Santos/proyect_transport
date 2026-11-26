@@ -1,4 +1,4 @@
-from ACO_adaptado import *
+from algoritmos.ACO_adaptado import *
 import numpy as np
 
 def TauMax(rho, f_best):
