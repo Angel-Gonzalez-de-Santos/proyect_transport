@@ -105,7 +105,7 @@ def UpdatePheromones(P, tao, rho, Q, cerrado):
             a, b = x[-1], x[0]
             tao[a][b] += deposito
 
-def IniciaProgreso(P, best_global, T, mostrar):
+def IniciaProgreso(P, best_global, T, mostrar=True):
     best_outputs = [0]*(T+1)
     best_outputs_global = [0]*(T+1)
     progression_bar = tqdm(total = T+1, disable = not mostrar)
